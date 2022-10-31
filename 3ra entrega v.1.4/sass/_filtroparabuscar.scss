@@ -1,0 +1,17 @@
+   /*Ejemplo de anidación o nesting*/
+   .seccionBuscar {
+       align-self: flex-start;
+
+       .campoValorMaximo {
+           margin-left: 75px;
+       }
+
+       .campoBarrio {
+           margin-left: 125px;
+
+       }
+   }
+
+   .navegacionFiltroParaBuscar {
+       margin-top: 1%;
+   }

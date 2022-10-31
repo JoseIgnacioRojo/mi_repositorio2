@@ -1,0 +1,50 @@
+@import "variablesGlobales";
+
+@mixin formulariosCamposDeCarga ($valorAncho, $valorAlto) {
+    width: $valorAncho;
+    height: $valorAlto;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+.seccionBuscar {
+    @include formulariosCamposDeCarga (500 px, 500px);
+}
+
+legend {
+    font-size: x-large;
+    color: rgb(65, 65, 76);
+}
+
+li {
+    /*saco los bullets a los links*/
+    list-style-type: none;
+    /*Pongo los links horizontales. Sacar después de clase 4!!!!!*/
+    display: inline-block;
+    /*margin: top right botton left*/
+    margin: 10px 77px 10px 40px;
+}
+
+/*saco subrayado a los links*/
+a {
+    text-decoration: none;
+}
+
+/*Para enlaces no visitados*/
+a:link {
+    color: rgb(6, 0, 0);
+}
+
+/*Para enlaces visitados*/
+a:visited {
+    color: rgb(208, 172, 241);
+}
+
+/*Al pasar el mouse por arriba*/
+a:hover {
+    color: aquamarine;
+}
