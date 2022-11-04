@@ -1,0 +1,177 @@
+/*1ro siempre se importan las variables*/
+@import "variablesGlobales";
+@import "generales";
+@import "filtroparabuscar";
+
+
+/*
+    {
+    margin: 0;
+    padding: 0;
+}
+*/
+
+.menuIndex {
+    background-color: rgb(2, 2, 173);
+}
+
+header {
+    /*margin: top right botton left*/
+    margin: 10px 300px 10px 50px;
+    /*background-color: rgb(19, 195, 244);*/
+    display: grid;
+    grid-template-rows: 30% 30% 30%;
+}
+
+/*li {
+    /*saco los bullets a los links*/
+/*   list-style-type: none;
+    /*Pongo los links horizontales. Sacar después de clase 4!!!!!*/
+/*   display: inline-block;
+    margin: 0px 40px 0px 40px;
+}*/
+
+/*saco subrayado a los links*/
+/*a {
+    text-decoration: none;
+}*/
+
+/*Pseudoclases*/
+/*Para enlaces no visitados*/
+/*a:link {
+    color: rgb(194, 240, 10);
+}*/
+
+/*Para enlaces visitados*/
+/*a:visited {
+    color: rgb(95, 8, 176);
+}*/
+
+/*Al pasar el mouse por arriba*/
+/*a:hover {
+    color: aquamarine;
+}*/
+
+/*fuente Roboto Light 300 Italic*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap');
+
+
+body {
+    /*fuente Roboto en todo el body*/
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(8, 72, 248);
+}
+
+h1 {
+    color: rgb(0, 0, 14);
+    margin-left: 50px;
+}
+
+.Seccion {
+    color: rgb(3, 1, 11);
+}
+
+h2 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 40%;
+}
+
+.flex__container {
+    background-color: rgb(42, 42, 236);
+    padding: 40px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content trabaja sobre el eje principal que definí en flex-direction*/
+    
+    justify-content: center;
+    font-size: xx-large;
+    font-weight: bold;
+    color:darkred;
+
+    /* align-items trabaja sobre el otro eje (el que no definí en flex-direction)*/
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}
+
+div {
+    /*background-color: rgb(46, 11, 243);*/
+    padding: 20px;
+    margin: 10px;
+}
+
+footer {
+    background-color: $colorFooter;
+    /*margin-top: 1%;*/
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+/*media query*/
+@media (min-width: 200px) {
+    .grid {
+        background-color: rgb(2, 2, 94);
+    }
+}
+
+/* iconos de redes sociales*/
+.icono {
+    width: 48px;
+    height: 48px;
+}
+
+.logosredessociales {
+    background-color: rgb(0, 13, 48);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.logosredessociales:hover {
+    transform: scale(2);
+    transition-property: all;
+    transition-duration: 3s;
+}
+
+
+/* Modal */
+.modal-content {
+    background-color: rgb(0, 21, 255);
+}
+
+.modal-header {
+    background-color: aqua;
+}
+
+.modal-body {
+    background-color: aqua;
+}
+
+.modal-footer {
+    background-color: aqua;
+}
+
+/* OffCanvas */
+.offcanvas-top {
+    background-color: rgb(240, 136, 190);
+}
+
+.offcanvas-header {
+    background-color: pink;
+}
+
+.offcanvas-body {
+    background-color: pink;
+}
+
+footer {
+    /*background-color: darkblue;*/
+    margin-top: 5%;
+}
