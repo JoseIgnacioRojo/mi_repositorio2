@@ -1,0 +1,9 @@
+Copiar la carpeta del proyecto a C:\Users\colaborador\Documents\Proyectos_CoderHouse
+Entrar a Git desde el aplicativo. Opción Git Bash.
+Ir a directorio donde está el repositorio: \Users\colaborador\Documents\Proyectos_CoderHouse\mi_repositorio
+hace el git status. Con eso verificamos que cambios hay.
+hace el git add .
+git commit -m "Desarrollo Web. Comisión 44190. 3ra entrega. v.1.3"
+git push origin master
+Entrar a GitHub y ver si subió.
+Copiar la URL y ponerla en la plataforma dónde se entrega.
