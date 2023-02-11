@@ -1,0 +1,9 @@
+*Reemplacé varios console.log por alert.
+*Agregué uso d efunciones y condicionales. 
+*Objecto simple. Se suma al que ya estaba Object constructor Articulo.
+*Nuevos métodos de arrays usados: length, reverse y forEach. Se suman a los que ya estaban: push y pop.
+*Uso de librería relevante para el proyecto: uso de Toastify, pero da error. no la encuentra.
+*Uso de Json local. Está comentada la lógica, pero ya no está el repositorio de la clase para sacar la clase Listado que se usa en document.querySelector(#Listado);
+*uso de storage. Solo guardo total a pagar y cantidad. No tengo mucho que guardar. Más adelante planeo guardar usuario de login con localStorage.
+*Formato de código correcto (con Prettier).
+*Lo del repositorio lo arreglo más adelante. Tengo miedo de arruinar todo en Git que ya me pasó.
